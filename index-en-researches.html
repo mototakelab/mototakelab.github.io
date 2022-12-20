@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+   <meta charset="utf-8">
+
+<html>
+  <head>
+        <title>Y.Mototake-en-researches</title>
+  </head>
+
+<style type="text/css">
+.site-header {
+  background-color:white;
+  width:1400px;
+  height:120px;
+  position: fixed;
+  padding-right: 30px;
+  margin-right: 30px;
+  font-family: serif;
+  top: 0;
+} 
+.menu {
+        border: 6;
+        border-collapse: separate;
+        border-spacing: 50px 8px;
+        font-size: 18px;
+        font color: black;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        text-decoration: none;  
+}
+.copyright{
+    color: black;
+    font-size: 36px;
+    text-align:  left;
+}
+.copyright2{
+    color: black;
+    font-size: 18px;
+    text-align:  left;
+}
+a.menubt {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    background: white;
+    padding: 5px 26px;
+    line-height: 45px;
+    text-align: left;    
+    transition: all  0.5s ease;   
+}
+a.menubt:hover{
+    font-size: 18.2px;
+    text-decoration: none;
+    color: salmon;
+    background: white;
+    padding: 5px 26px;
+    line-height: 45px;
+    text-align: left;
+}
+.toplinkbar{
+    background: white;
+    width:1350px;
+    height: 0px;
+    text-align: right;
+}
+.toplinktitle{
+    color: black;
+    font-size: 14px;
+    text-align:  right;
+    text-decoration: none;
+}
+a.toplinktitle {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    background: white;
+    transition: all  0.5s ease; 
+}
+a.toplinktitle:hover{
+    font-size: 14px;
+    text-decoration: none;
+    color: cornflowerblue;
+    background: white;
+}
+.hr1 {
+  border-top:5px solid #000;;
+  width: 1400px;
+  padding-right: 30px;
+  margin-right: 30px;
+}
+.hr2 {
+  border-top:1px solid #000;;
+  border-width: 1px;
+  width: 1350px;
+}
+.contents{
+   font-size: 14px;
+   padding-top: 80px;
+   margin: 50px;
+   width: 1350px;
+   font-family: serif;
+}
+.table{
+  border-collapse: separate;
+  margin: 0 auto;
+}
+.table-img,
+.table-txt{
+  font-size: 16px;  
+  vertical-align: middle;
+  width: 600px;
+}
+.table-img{
+  background: white;
+}
+.table-img > img{
+  width: 100%;
+}
+.table-txt{
+  background: white;
+}
+a.menubt2 {
+    font-size: 15.5px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: all  0.5s ease;   
+}
+a.menubt2:hover{
+    font-size: 15.5px;
+    text-decoration: none;
+    color: salmon;
+    font-weight: bold;
+}
+</style>
+
+<article>
+ <div class="site-header">
+   <div class="toplinkbar">
+        <a class="toplinktitle" href="./index-researches.html">日本語</a> /<a class="toplinktitle" href="./index-en-researches.html"> English </a>        
+   </div>   
+  <table class="menu">
+      <tr><td><a class="menubt" href="./index-en-home.html">home</a></td>
+　　　　   <td><a class="menubt" href="./index-en-cv.html">cv</a></td>
+       　 <td><a class="menubt" href="./index-en-researches.html">researches</a></td>
+          <td><a class="menubt" href="./index-en-publications.html">publications</a></td>
+          <td><a class="menubt" href="./index-en-team.html">team</a></td>
+          <td><a class="menubt" href="./index-en-awards.html">awards</a></td>
+          <td><a class="menubt" href="./index-en-funds.html">funds</a></td>
+          <td><a class="menubt" href="./index-en-contact.html">contact</a></td>
+      </tr>
+    </table>  
+  <hr class="hr1">
+ </div>    
+</article>  
+
+<div class="contents">
+
+ <p><h2>Researches</h2></p>
+    <hr class="hr2">
+<table class="table">
+    <tr>
+        <td class="table-img">
+            <img src="images/kenkyu-en1.jpeg">
+        </td>    
+        <td class="table-txt">       
+            It has been recently reported that highly accurate classification, regression, and generation can be achieved by interpolative modeling of complex scientific data using machine learning models with high expressive power, such as deep neural networks (DNNs). However, many of the machine learning models used there are nonlinear functions with a large number of parameters, making the interpretation of the training results very difficult. In thermodynamics, Gibbs extended the theory of thermodynamics, which was the theory of heat engines, to chemical reactions, which was a great development in science. This shows that science has been greatly advanced by the scientific insight of human beings, who derive general principles beyond mere interpolation models and boldly extrapolate them. On the other hand, it is sometimes difficult to apply such insights to systems with complex non-periodic structures, such as those found in nonlinear and nonequilibrium phenomena. To address this situation, we believe that it is important to collaborate between machine learning, which is good at building interpolation models for complex data, and humans, who can make bold extrapolations based on scientific insights, and are developing methods for interpreting machine learning training results to bridge the gap between the two (the figure to the left).<br>
+            
+        </td>
+    </tr>
+    <tr>
+        <td class="table-txt">
+            It has been reported that DNNs extract the dataset distribution from the input space as a subspace such as a low-dimensional manifold to efficiently acquire the information necessary to accomplish the task. Also in physical systems, the low-dimensional structure that time series data of dynamical systems have in the phase space composed of position and momentum is considered to be related to physical constraints such as conserved quantities and order variables. In other words, it is expected that interpretable information such as conservation laws and order variables can be extracted from the manifold structure modeled by DNN. In the Hamiltonian dynamical system, which is a kind of dynamical system, there is a theorem called Noether's theorem, which connects the invariance of the system to continuous coordinate transformation and the conserved quantity. From this, it is expected that the conserved quantities can be estimated from the symmetry of the manifold structure captured by DNN (the figure to the right).
+        </td>
+        <td class="table-img">
+            <img src="images/kenkyu-en2.jpeg">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/aYFru06uwTk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </td>    
+        <td class="table-txt">       
+            <br>
+            One of the key items when discussing the definition of science is the “elimination of a priori knowledge”. On the other hand, in the field of scientific measurement and its analysis, analyses that strongly rely on human “subjectivity,” such as least-squares regression with arbitrarily determined initial values, are often performed. We are using the framework of Bayesian inference to provide guidelines for scientists not to be complacent with this situation, but to make science more faithful to its definition. Our approach here is not a simple application of Bayesian inference to measured data but is to model scientists’ activities based on Bayesian inference.
+　The relationship between Bayesian statistics and the work of scientists is described below. In Bayesian statistics-based inference of the latent parameter x, x is estimated by inverting the causal relation p(y|x)p(x) to p(x|y)p(y), mediated by the simultaneous probability p(x,y), which has all information about the random variables involved. Scientists, on the other hand, understand the world from the viewpoint of the law of causality x→y, and then trace causality back to clarify the latent physical structure x that lies behind y→x. In other words, Bayes’ theorem can be seen as a model of scientists’ activities to understand the world of simultaneous probability through the law of causality, and to elucidate the latent physical structure by tracing back the causality. In other words, modeling measurement with Bayesian inference can be seen as modeling the activities of scientists who analyze measurement data. Many scientists also have the belief that if there is more than one model that can explain a phenomenon, they will choose the simpler model. It is no exaggeration to say that this “Occam’s razor” faith has driven science to date. This scientist’s belief is also naturally modeled by the framework of Bayesian inference.
+　Using Bayesian statistics, we have modeled scientific measurement activities in various fields, such as condensed matter physics and materials science. Furthermore, by applying Bayesian inference to measurement, we have realized information extraction to assist physicists beyond a simple analysis of measurement data, such as extraction of effective models based on measurement data and extraction of physical information from posterior distributions.
+        </td>
+    </tr>
+
+</table>
+</div>
+</html>

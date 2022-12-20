@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+   <meta charset="utf-8">
+
+<html>
+  <head>
+        <title>Y.Mototake-researches</title>
+  </head>
+
+<style type="text/css">
+ .site-header {
+  background-color:white;
+  width:1400px;
+  height:120px;
+  position: fixed;
+  padding-right: 30px;
+  margin-right: 30px;
+  font-family: serif;
+  top: 0;
+} 
+.menu {
+        border: 6;
+        border-collapse: separate;
+        border-spacing: 50px 8px;
+        font-size: 15.5px;
+        font color: black;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        text-decoration: none;     
+}
+.copyright{
+    color: black;
+    font-size: 36px;
+    text-align:  left;
+}
+.copyright2{
+    color: black;
+    font-size: 18px;
+    text-align:  left;
+}
+a.menubt {
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    background: white;
+    padding: 5px 31px;
+    line-height: 45px;
+    text-align: left;    
+    transition: all  0.5s ease;   
+}
+a.menubt:hover{
+    font-size: 16.2px;
+    text-decoration: none;
+    color: salmon;
+    background: white;
+    padding: 5px 31px;
+    line-height: 45px;
+    text-align: left;
+}
+.toplinkbar{
+    background: white;
+    width:1350px;
+    height: 0px;
+    text-align: right;
+}
+.toplinktitle{
+    color: black;
+    font-size: 14px;
+    text-align:  right;
+    text-decoration: none;
+}
+a.toplinktitle {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    background: white;
+    transition: all  0.5s ease;  
+}
+a.toplinktitle:hover{
+    font-size: 14px;
+    text-decoration: none;
+    color: cornflowerblue;
+    background: white;
+}
+.hr1 {
+  border-top:5px solid #000;;
+  width: 1400px;
+  padding-right: 30px;
+  margin-right: 30px;
+}
+.hr2 {
+  border-top:1px solid #000;;
+  border-width: 1px;
+  width: 1350px;
+}
+.contents{
+   font-size: 14px;
+   padding-top: 80px;
+   margin: 50px;
+   width: 1350px;
+   font-family: serif;
+}
+.table{
+  border-collapse: separate;
+  margin: 0 auto;
+}
+.table-img,
+.table-txt{
+  font-size: 16px;  
+  vertical-align: middle;
+  width: 600px;
+}
+.table-img{
+  background: white;
+}
+.table-img > img{
+  width: 100%;
+}
+.table-txt{
+  background: white;
+}
+a.menubt2 {
+    font-size: 15.5px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: all  0.5s ease;   
+}
+a.menubt2:hover{
+    font-size: 15.5px;
+    text-decoration: none;
+    color: salmon;
+    font-weight: bold;
+}
+</style>
+
+<article>
+<div class="site-header">
+   <div class="toplinkbar">
+        <a class="toplinktitle" href="./index-researches.html">日本語</a> /<a class="toplinktitle" href="./index-en-researches.html"> English </a>        
+   </div>   
+  <table class="menu">
+      <tr><td><a class="menubt" href="./index.html">ホーム</a></td>
+　　　　   <td><a class="menubt" href="./index-cv.html">経歴</a></td>
+       　 <td><a class="menubt" href="./index-researches.html">研究概要</a></td>
+          <td><a class="menubt" href="./index-publications.html">業績</a></td>
+          <td><a class="menubt" href="./index-team.html">研究チーム</a></td>
+          <td><a class="menubt" href="./index-awards.html">受賞歴</a></td>
+          <td><a class="menubt" href="./index-funds.html">競争的資金</a></td>
+          <td><a class="menubt" href="./index-contact.html">連絡先</a></td>
+      </tr>
+    </table>  
+  <hr class="hr1">
+</div>   
+  
+</article>  
+
+<div class="contents">
+  
+<p><h2>研究概要</h2></p>
+    <hr class="hr2">
+<table class="table">
+    <tr>
+        <td class="table-img">
+            <img src="images/kenkyu1.jpeg">
+        </td>    
+        <td class="table-txt">       
+            熱力学では，ギブスが熱機関の理論であった熱力学を化学反応論に拡張し、科学に偉大な発展をもたらしました。このように、単なる内挿モデルを超えた一般原理を導き、それを大胆に外挿する人間の科学的洞察力は、科学を駆動する源泉です。しかし、非線形・非平衡現象などの複雑な系でその洞察力を働かせることは時に困難です。近年、深層ニューラルネットワーク（DNN）をはじめとした表現能力の高い機械学習モデルを用いて、複雑な科学データを分析・モデル化する研究が活発に行われています。しかし、その多くは内挿的なモデル構築に留まり、さらに、モデルは多量のパラメータをもつ非線形関数である為、その解釈が非常に困難です。これに対して我々は、複雑なデータの内挿モデル構築を得意とする機械学習と、科学的洞察によって大胆な外挿を実現する人間の協業が重要と考え、両者を橋渡しする手法開発を行っています（左図）。<br>
+            
+        </td>
+    </tr>
+    <tr>
+        <td class="table-txt">
+            DNNは、データ分布が持つ構造を低次元多様体のような部分空間として抽出して、タスク達成に有用な情報を得る機能があると報告されています。物理系でもデータの低次元構造は、保存量や秩序変数といった物理的制約に関連すると考えられます。すなわち、DNNがモデル化したデータ多様体から、保存則や秩序変数といった解釈可能情報が抽出できると期待されます。力学系の一種であるハミルトン系では、座標変換に対する系の不変性と保存量を結びつけるネーターの定理が成立します。我々は、位置と運動量の時間遅れ空間上の時系列データ多様体の対称性から、力学系の対称性が推定できることを理論的に確認し、それを元に学習済みDNNからの保存量抽出法を開発しました（右図）。
+        </td>
+        <td class="table-img">
+            <img src="images/kenkyu2.jpeg">
+        </td>
+    </tr>
+        <tr>
+        <td>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/aYFru06uwTk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </td>    
+        <td class="table-txt">       
+            <br>
+            科学の定義を論じる際の重要な項目の一つは「ア・プリオリな知識の排除」です。一方で，科学計測とその分析の現場では，初期値を恣意的に決めた最小二乗法回帰といった、人間の「主観」に強く依存した分析がよく行われます。我々はベイズ推論の枠組みを利用して、科学者がこのような状況に甘んじることなく、科学をよりその定義に忠実たらしめていく為の指針を示す取り組みを行っています。ここでいう我々の取り組みとは、単純なベイズ推論の計測データへの適用ではありません。我々の取り組みとは、ベイズ推論を元に科学者の営みをモデル化することです。
+　ベイズ統計と科学者の営みの関係を述べます。ベイズ統計に基づく潜在パラメータxの推論では、関係する確率変数についての全ての情報を持つ同時確率p(x,y)を媒介として、因果関係p(y|x)p(x)を逆転p(x|y)p(y)してxを推定します。一方で科学者は、この世界を因果律x→yという視点から理解した上で、因果を遡りy→xその背景にある物理的潜在構造xを解明します。つまり、ベイズの定理とは、同時確率という世界を因果律により理解し、その因果を遡ることで物理的潜在構造を解明するという、科学者の営みをモデル化しているとみることができるのであります。すなわち、計測をベイズ推論でモデル化することは、計測データを分析する科学者の営みのモデル化と捉えられるのです。また、多くの科学者は、ある現象を説明できるモデルが複数ある場合、より単純なモデルを選択するという信念を持っています。この「オッカムの剃刀」的な信仰が、これまでの科学を駆動してきたと言って過言ではないでしょう。この科学者の信念はベイズ推論の枠組みによって自然にモデル化されます。
+　我々はこれまでに、物性物理学や材料科学といった様々な分野において、科学計測の営みをベイズ統計によってモデル化してきました。さらに、ベイズ推論を計測に適用することで、計測データに基づく有効モデル抽出や、事後分布からの物理情報抽出といった、単純な計測データの分析にとどまらない物理学者を支援する情報抽出を実現しているのです。
+        </td>
+    </tr>
+</table>
+
+</div>
+</html>
