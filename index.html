@@ -1,60 +1,102 @@
-<!DOCTYPE HTML>
+<!doctype html>
 <html lang="ja">
 <head>
-<meta charset="utf-8">
-<title>Mototake Lab.</title>
-<!--[if lt IE 9]>
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
-<![endif]-->
-<link href="css/style.css" rel="stylesheet" media="all">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MotoLab</title>
+<link rel="stylesheet" media="all" href="css/ress.min.css" />
+<link rel="stylesheet" media="all" href="css/style.css" />
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/style.js"></script>
+
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="img/favicon.png">
+    
 </head>
 <body>
-<div id="container">
-  <header id="header">
-    <h1>本武研究室</h1>
-    <h5>一橋大学　　ソーシャル・データサイエンス研究科</h5>
-  </header>
-  <div id="nav_frame">
-    <nav>
-      <ul id="nav1">
-        <li><a href="index.html">ホーム</a></li>
-        <li><a href="research.html">研究内容</a></li>
-        <li><a href="members.html">メンバー</a></li>
-        <li><a href="publications.html">研究業績</a></li>
-        <li><a href="contact.html">連絡先</a></li>
-        <li><a href="index-e.html">ENGLISH</a></li>
-      </ul>
-    </nav>
-    <div id="link">
-      <p>LINKS</p>
-      <ul id="nav2">
-        <li><a href="https://mototakelab.github.io/mototake.github.io/index.html">本武陽一HP</a></li>
-        <li><a href="https://www.facebook.com/yhoich.motake">facebook</a></li>
-        <li><a href="https://twitter.com/motake2010">twitter</a></li>
-      </ul>
+<header>    
+<div class="container">
+<div class="row">
+    <div class="col span-12">
+    <div class="head">
+        <h2><img src="img/logo.png", width="65" height="65", align="left"></h2>&nbsp&nbsp
+        <h1> <a href="index.html">Data Driven Science Group <font size = "3"> </font></h1></a>
+		<div class="telbox"><font size = "5">Mototake Lab.</font></div>
+        </div>
+    </div></div>
+<div class="row">
+    <div class="col span-12">
+        <nav>
+            <div id="open"></div>
+            <div id="close"></div>   
+            <div id="navi">
+        <ul>
+            <li><a href="index.html">ホーム</a></li>
+            <li><a href="research.html">研究内容</a></li>
+            <li><a href="member.html">メンバー</a></li>
+            <li><a href="works.html">研究業績</a></li>
+            <li><a href="equipment.html">計算機器</a></li>
+            <li><a href="contact.html">連絡先</a></li>
+            </ul>
+                </div>
+        </nav>
     </div>
-  </div>
-  <div id="top"><img src="image/top1.jpg" alt="" width="750" height="240"></div>
-  <div id="main">
-    <div id="about">
-      <h2 class="mt0">ABOUT US</h2>
-      <p>本研究室では、原理・法則の発見しようとする科学者や、複雑な現象を予測し制御する開発者を支援する解釈可能な機械学習の枠組みの構築に取り組んでいます。そこで重要になるのが、小規模データからデータを超えた汎用的な知識をいかに抽出するかになります。このような小規模データのデータサイエンスで生じる課題は、機械学習技術が一般化し誰でも利用ができるようになりつつある現状で、次の課題として立ち現れる課題になると予想されます。このような課題に対して、深層ニューラルネットワークやガウス過程などの表現能力の高い機械学習モデルで複雑現象をモデル化し、そのモデルと物理的な知識とを結びつけることで解釈可能な情報を抽出し、科学者・開発者に提供することで法則・原理の抽出や新しい製品開発を促進します。本研究室では、このような研究に必要な分析対象の知識や、機械学習技術の教育を実施するとともに、それを基盤に研究活動に取り組んでもらいます。</p>
+        </div>
     </div>
-    <div id="news">
-      <h3 class="top">NEWS &amp; TOPICS</h3>
-      <ul>
-        <li>Yoh-ichi Mototake, Masaichiro Mizumaki, Kazue Kudo, Kenji Fukumizu, “Revealing the Mechanism of Magnetic Domain Formation by Topological Data Analysis,(2022.04.27)<a href="https://arxiv.org/abs/2204.12194"><strong>arxiv:2204.12194.</strong></a></li>
-        
-      </ul>
+    </header>
+    <div class="mainimg">
+              <img src="img/topimg.png" alt="メイン画像">
+        </div>
+    <main>
+<div class="container">
+<div class="row">
+    <div class="col span-8">
+    <div class="news">
+		<h2>新着情報</h2>
+		<ul>
+			<li>2023.4.13　論文 "Signal Identification without Signal Formulation",
+Yoh-ichi Mototake, Y-h. Taguchi をarxivで公開しました。<a href=https://arxiv.org/abs/2304.06522>arxiv:2304.06522</a></li>
+		    <li>2023.4.3　本武研究室がスタッフ３名、協力教員１名、修士課程学生１名でスタートしました</li>
+		</ul>	
+
+        <h2>大学院生募集</h2>
+        <ul>
+            <p>解釈可能AIを用いたデータ駆動理学に興味のある大学院生を募集します。研究対象は物理学や生物学、社会学等の森羅万象あらゆる領域の複雑現象です。興味がある人は、y.mototake_at_r.hit-u.ac.jpまでご連絡ください</p>
+        </ul>  
+
+
+        <h2>輪読参加者募集</h2>
+        <ul>
+            <p>5月の後半くらいから、深層学習の本「Understanding Deep Learning by Simon J.D. Prince」の輪読を行う予定です。輪読に興味がある人は、y.mototake_at_r.hit-u.ac.jpまでご連絡ください。</p>
+        </ul>   
+        </div>
     </div>
-  </div>
+	<div class="col span-4">
+        <h5>新着論文</h5>
+        Yoh-ichi Mototake, Y-h. Taguchi, "Signal Identification without Signal Formulation." arxiv:2304.06522, (2023).
+		<a href="https://arxiv.org/abs/2304.06522"><img width = "200" src="img/news1.png" alt="バナー画像"></a>
+        Mototake, Yoh-ichi, Kaita Ito, and Masahiko Demura. "Quantitative prediction of fracture toughness (KI c) of polymer by fractography using deep neural networks." Science and Technology of Advanced Materials: Methods 2.1 (2022).
+	    <a href="https://www.tandfonline.com/doi/full/10.1080/27660400.2022.2107883"><img width = "200" src="img/news2.png" alt="バナー画像"></a>
+	</div>
+    </div>    
+        </div>
+    </main>
+    <footer>
+<div class="container">
+<div class="row">
+    <div class="col span-6">
+        <h5>連絡先</h5>
+        <p>y.mototake_at_r.hit-u.ac.jp<br>
+        042-580-9222（直通）</p>
+    </div>
+    <div class="col span-6">
+        <h5>研究室所在地</h5>
+        <p>〒186-8601 東京都国立市中2-1<br>
+        東本館227号室</p>
+    </div>
+        </div>
 </div>
-<footer>
-  <div id="footer_color">
-    <div id="copy">Copyright &copy; Cis-trans, Inc. All rights reserved.</div>
-    <!--この行は削除できません--><div id="flink"><a href="https://www.cis-trans.jp/">研究室ホームページ</a></div><!--この行は削除できません-->
-  </div>
-</footer>
+    </footer>
+<p id="pagetop"><a href="#">TOP</a></p>    
 </body>
 </html>
