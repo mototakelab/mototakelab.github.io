@@ -8,6 +8,20 @@
 <link rel="stylesheet" media="all" href="css/style.css" />
 <script src="js/jquery-3.6.0.min.js"></script>
 <script src="js/style.js"></script>
+<style>
+  ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  li:nth-child(2) {
+    margin: 0 10px;
+  }
+</style>
 
 <!-- Favicon -->
 <link rel="icon" type="image/png" href="img/favicon.png">
@@ -61,8 +75,8 @@
 <h2 class="mt0">研究分野：データ駆動理学、解釈可能AI、機械学習</h2>
 <tr>
   <td>
-    <figure class="center"><img src="img/research0.png" width="1050" >
-      <figcaption></figcaption>
+    <figure class="center"><img src="img/research0.png" width="750">
+    <figcaption></figcaption>
     </figure>
   </td>
   <td>
@@ -73,7 +87,10 @@
 <h2 class="mt0">研究背景</h2>
 <tr>
   <td>
-    <figure class="center"><img src="img/research1.jpeg" width="750" >
+    <ul>
+      <li><figure class="center"><img src="img/research1.jpeg" width="650" ></li>
+      <li><iframe width="550" height="360" src="https://www.youtube.com/embed/AmJbWeXrTug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></li>
+    </ul>
       <figcaption></figcaption>
     </figure>
   </td>
@@ -86,10 +103,10 @@
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 
-<h2>研究テーマ⑴</h2>
+<h2>研究テーマ(1)：深層ニューラルネットワークからの解釈可能情報の抽出</h2>
 <tr>
   <td>
-    <figure class="center"><img src="img/research2.png" width="750">
+    <figure class="center"><img src="img/research2.png" width="650">
       <figcaption></figcaption>
     </figure>
   </td>
@@ -102,17 +119,31 @@
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 
-<h2>研究テーマ⑵</h2>
+<h2>研究テーマ(2)：ベイズ推論による科学者の法則・原理抽出過程のモデル化</h2>
 <tr>  
   <table class="center">
      <tr>
         <td>
-            <iframe width="760" height="515" src="https://www.youtube.com/embed/aYFru06uwTk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="650" height="315" src="https://www.youtube.com/embed/aYFru06uwTk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
      </tr>
   </table>    
   <td>
     <p>科学の定義を論じる際の重要な項目の一つは「ア・プリオリな知識の排除」です。一方で，科学計測とその分析の現場では，初期値を恣意的に決めた最小二乗法回帰といった、人間の「主観」に強く依存した分析がよく行われます。我々はベイズ推論の枠組みを利用して、科学者がこのような状況に甘んじることなく、科学をよりその定義に忠実たらしめていく為の方針を提示する取り組みを行っています。ここでいう我々の取り組みとは、単純なベイズ推論の計測データへの適用ではありません。我々の取り組みとは、ベイズ推論を元に科学者の営みをモデル化することです。 　ベイズ統計と科学者の営みの関係を述べます。ベイズ統計に基づく潜在パラメータxの推論では、関係する確率変数についての全ての情報を持つ同時確率p(x,y)を媒介として、因果関係p(y|x)p(x)を逆転p(x|y)p(y)してxを推定します。一方で科学者は、この世界を因果律x→yという視点から理解した上で、因果を遡りy→xその背景にある物理的潜在構造xを解明します。つまり、ベイズの定理とは、同時確率という世界を因果律により理解し、その因果を遡ることで物理的潜在構造を解明するという、科学者の営みをモデル化しているとみることができます。すなわち、計測をベイズ推論でモデル化することは、計測データを分析する科学者の営みのモデル化と捉えることができるのです。また、多くの科学者は、ある現象を説明できるモデルが複数ある場合、より単純なモデルを選択するという信念を持っています。この「オッカムの剃刀」的な信仰が、これまでの科学を駆動してきたと言って過言ではないでしょう。この科学者の信念はベイズ推論の枠組みによって自然にモデル化されます。 　我々はこれまでに、物性物理学や材料科学といった様々な分野において、科学計測の営みをベイズ統計によってモデル化してきました。さらに、ベイズ推論を計測に適用することで、計測データに基づく有効モデル抽出や、事後分布からの物理情報抽出といった、単純な計測データの分析にとどまらない物理学者を支援する情報抽出の実現を試みています。</p>
+  </td>
+</tr>
+
+<h2>研究テーマ(3)：位相的データ解析による解釈可能な複雑現象モデルの構築</h2>
+<tr>  
+  <table class="center">
+     <tr>
+        <td>
+          <figure class="center"><img src="img/research3.png" width="600">
+        </td>
+     </tr>
+  </table>    
+  <td>
+    <p>結晶構造のような周期構造に対するフーリエ基底空間や、熱力学現象のようなランダム現象における圧力や温度といった統計量空間は、それらの重要な情報を保持しつつモデル化する上での基盤を与えました。一方で、材料構造にみられる非周期的な秩序構造を形成する非線形で非平衡なパターン形成現象を扱う適切な座標系は未だに発見されたとは言い難いです。近年、パーシステントホモロジーを用いた位相的データ解析を用いることで、アモルファスのガラス状態をはじめとした非周期的な秩序構造をが特徴付けられることが報告されています。パーシステントホモロジーとは、穴の数のようなトポロジカルな構造に、その構造の空間スケール等の情報を付加した不変量のことです。我々は、このパーシステントホモロジーから導かれる特徴量を用いることで、非線形・非平衡なパターン形成過程の分析を試みています。</p>
   </td>
 </tr>
     
