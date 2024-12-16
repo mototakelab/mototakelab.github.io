@@ -160,6 +160,10 @@ main {
 	border-bottom: 1px solid var(--border-color);
 	padding: 0.5rem 0;
 }
+#newsevent {
+	height: 120px;/*スクロールの高さ*/
+	overflow-y: scroll;
+}
 
 /*フッター
 -------------------------------------*/
